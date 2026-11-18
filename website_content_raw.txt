@@ -1,0 +1,453 @@
+﻿Website Content Template
+For starters:
+Before preparing/structuring your content, please go through the starter points.
+A. General Information
+* Name: Chamber.MU
+* Tagline (if any):
+* Year Established: 2026
+* Office Address(es): 
+Delhi Address: 20/3 Nizamuddin East Market, Nizemuddin East - 110013
+Coimbatore Address: Door No. 24, ST-6 (Chitra Nagar), Narasimhanaickenpalayam, Coimbatore - 641017.
+UK Address: 
+* Contact Number(s):  +91 88607 99513
+* Email Address: thechamber.mu@gmail.com
+* Social Media Links: 
+IG:https://www.instagram.com/thechamber.mu?igsi=MXd5djlwajhyMWk4bQ%3D%3D&utm_source=qr
+X: https://x.com/thechambermu?s=11
+________________
+
+
+B. Branding Assets
+Please provide:
+* Logo: Logos are here
+* Brand colors: #FEF9F3 & #00000
+* Fonts: Montserrat Light (preferred font)
+* Any existing brochures or marketing materials: 
+________________
+
+
+C. Additional Notes
+* Competitor websites you like: https://www.doughtystreet.co.uk/
+* Design preferences (e.g., modern, minimal, corporate): Minimal, resembling the Doughty Street’s website 
+* Special features required (e.g., appointment booking, live chat, etc.): NA
+________________
+
+
+Website Pages
+________________
+
+
+1. Homepage Content
+1.1 Hero Section (Top Banner)
+* Headline (short, impactful):
+Strategic client centric legal services. Welcome to Chamber.MU where we prioritise your voice and concerns being heard and seen before everything else.
+________________
+
+
+2. About Us Page
+2.1 Overview
+Chamber.MU is an Indian law firm with a unique practice in constitutional law, immigration law, international human rights and humanitarian law, international criminal law and alternate dispute resolution mechanisms including arbitration and mediation. We are a full service law firm and practice all civil and criminal litigations across all courts of India including the Supreme Court of India.
+________________
+
+
+2.2 Our Purpose
+Our work particularly focuses on understanding the blend of International law jurisprudence within the domestic constitutional law practice of India. We aim to introduce some shades of brown in the international human rights, humanitarian law and criminal law jurisprudence through locating these universal legal principles within the comparative constitutional law practice and policy advocacy within south asia.
+________________
+
+
+2.3 Our Values
+We are a team of feminist lawyers with staunch faith in constitutionalism. Our practice strives to achieve social justice and therefore we do not accept briefs that oppose equality and representation of any marginalised or disenfranchised community across the world. We specialise in strategic feminist constitutional lawyering and provide the best available representation to each client irrespective of their social status.
+Our particular aim is to provide our marginalised and disenfranchised clients the same standard of legal representation that is afforded to affluent clients.
+________________
+
+
+3. Practice Areas
+Our Expertise: 
+3.1. Litigation:
+
+
+S. No.
+	Area of Expertise
+	Description
+	1
+	Immigration Law
+	[purposefully left blank]
+	2
+	Constitutional Law
+	[purposefully left blank]
+	3
+	Criminal Law
+	[purposefully left blank]
+	4
+	Civil Law
+	[purposefully left blank]
+	5
+	International Human Rights Law
+	[purposefully left blank]
+	6
+	International Humanitarian law
+	[purposefully left blank]
+	7
+	Asylum and refugee law
+	[purposefully left blank]
+	8
+	Labour law
+	[purposefully left blank]
+	9
+	International criminal law
+	[purposefully left blank]
+	3.2. Alternate Dispute Resolution:
+Arbitration, mediation 
+Media and press releases:
+2019
+	Practice in Trial Courts and High Court of Bombay
+https://www.hindustantimes.com/mumbai-news/overnight-drama-at-aarey-colony-in-mumbai-ends-in-arrests/story-YiADOgfDv6unKcMlouEaDP.html
+	2022
+	Co-Founder, Lingering Shadows Initiative (Parchaayi/Chhaya/Saba Project); Independent consultancy on human rights law research for international organisations from England and Bangladesh; Co-Founder of Law Firm -Chamber MU.
+https://www.probonoconference.org/2022-pg-a2jx-the-lingering-shadow-initiative-parchaayi-project-a-ground-report-on-the-situation-of-migrant-workers-and-the-rohingya-refugees-in-delhi-ncr/
+	2023- 2025
+	Legal representation of clients in matters of unlawful detention, rights of refugees and asylum seekers, custodial disappearance, immigration laws, SGBV, SC/ST atrocities cases, labour laws, contract laws, and all trial Courts of Delhi NCR, Delhi High Court and the Supreme Court of India; Legal representation to clients before Foreigners’ Tribunals in Assam impacting 1.9 million stateless.
+https://theprint.in/india/delhi-hc-directs-joint-inspection-of-rohingya-detention-centre-over-alleged-lack-of-facilities/1366548/?amp
+https://www.scobserver.in/journal/lifting-the-veil-rohingyas-refugees-supreme-court/
+https://article-14.com/post/inside-the-legal-battle-to-ensure-health-freedom-of-a-rohingya-woman-in-illegal-detention--653b27dfd0f07
+https://clpr.org.in/litigation/p-sandosh-kumar-ors-v-union-of-india/
+	2024-2026
+	Ujjaini got the Constitution Defenders Fellowship - 2024- 2026 (Centre for Law and Policy Research)
+https://clpr.org.in/blog/meet-our-new-constitution-defender-fellows/
+	2026
+	In 2026, Ujjaini was awarded the “Your Nottingham Alumni Award” for her contribution as an advocate and international human rights lawyer supporting displaced and refugee communities. [Watch on YouTube here]
+	Find the Partners writing at:
+The Leaflet [https://theleaflet.in/author/ujjaini-chatterji]
+[https://theleaflet.in/author/t-mayura-priyan]
+Oxford Human Rights Hub [https://ohrh.law.ox.ac.uk/the-offence-of-sedition-in-india-and-its-future/]
+Article 14 [https://article-14.com/post/rohingya-refugees-recall-desperate-conditions-with-no-legal-recourse-in-delhi-detention-centre-6345c105f3851]
+Newslaundry [https://www.newslaundry.com/2020/08/17/gn-saibaba-isnt-being-let-out-of-prison-even-in-a-pandemic-its-a-disgrace]
+
+
+Find the work of the Partners being quoted by:
+The Guardian [https://www.theguardian.com/global-development/2024/nov/26/education-rohingya-refugee-children-india-schools]
+The Telegraph [https://www.telegraph.co.uk/authors/s/sa-se/sarah-aziz/]
+VOA News [https://www.voanews.com/a/rohingya-detainees-protest-abominable-conditions-in-indian-camp/7784341.html]
+The Daily Star [https://www.thedailystar.net/explainer-0/news/will-india-hand-over-hasina-4156871]
+The Scroll [https://scroll.in/article/1089947/assams-nowhere-people-given-24-hours-to-leave-india-tossed-back-and-forth-across-bangladesh-order]
+Pulitzer Center [https://pulitzercenter.org/stories/false-promises-lost-lives-rohingya-womens-journeys-refugees]
+Article 14 [https://article-14.com/post/despite-supreme-court-orders-constitutional-guarantees-rohingya-refugee-children-in-jammu-denied-education--68dca35e2704a]
+	
+
+3.3. Other Spaces
+The Lingering Shadows Initiative- a program to amplify the voices of the disenfranchised and marginalised social groups through litigation within courtrooms and through reporting, advocacy, art, storytelling, theatre and films outside the courtrooms.
+[This will be hyperlinked to lead to the LSI website]
+The Young Lawyers Network- a network of dynamic, inventive, skilled, articulate, accountable and professional human rights lawyers with exposure in the legal field and immense ambition to develop and expand human rights lawyering as a practice.
+[This will be hyperlinked to lead to a separate landing page, the content for that page is here]
+The Young Lawyers Diary- A blog for young lawyers to share their lived experiences.
+[This will lead to a separate landing page where we will put out blogs and short article entries and have a picture gallery as well]
+Rising Peacock- The educational wing of Chamber.MU and LSI that actively works towards transforming education through globally aligned learning, educator excellence, and future-ready student development.
+[This will be hyperlinked to lead to the RP website]
+Virtuosity Legal- The Knowledge Partner to Chamber.MU and LSI, Virtuosity Legal is an independent, student-driven initiative with a clear vision, to bring clarity, authenticity, and depth to the study and practice of law.
+[This will be hyperlinked to lead to Virtuosity Legal website]
+________________
+
+
+4. Team Page
+4.1 Team Member Profile
+
+
+Designation
+	Team Members
+	Details
+	Partner
+	Mayurapriyan Thangavel, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications (Optional):
+Areas of Expertise (Optional):
+Years of Experience (Optional):
+LinkedIn Profile (Optional): LinkedIn
+	Partner
+	Ujjaini Chatterji, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications (Optional):
+Areas of Expertise (Optional):
+Years of Experience (Optional):
+LinkedIn Profile (Optional): LinkedIn
+	India Office
+	Associate
+	Mahvish Fatima, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications: B.A.LL.B (Hons.)
+LinkedIn Profile (Optional): LinkedIn
+	Associate
+	Izeen Fatima, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications: B.A. (Hons.) (Psychology), LL.B.
+LinkedIn Profile (Optional): LinkedIn
+	Associate
+	Tanzeel Islam Khan, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications: B.A.LL.B (Hons.)
+LinkedIn Profile (Optional): LinkedIn
+	Legal Intern
+	Ms. Bisman Kaur
+	Profile Photo: Picture here
+Bio: Bio here
+LinkedIn Profile (Optional): LinkedIn
+	England Office
+	Legal Researcher (England Chapter)
+	Lubana
+	
+
+	Legal Researcher
+(England Chapter)
+	Dylan
+	
+
+	Legal Researcher
+(England Chapter)
+	Grace
+	
+
+	
+
+________________
+
+
+6. Contact Page
+6.1 Contact Details
+* Address: 
+Delhi Address: 20/3 Nizamuddin East Market, Nizemuddin East - 110013
+Coimbatore Address: Door No. 24, ST-6 (Chitra Nagar), Narasimhanaickenpalayam, Coimbatore - 641017.
+UK Address:
+* Phone: +91 88607 99513
+* Email Address: thechamber.mu@gmail.com
+________________
+
+
+7.2 Contact Form Fields
+(Default fields—confirm or modify as needed)
+* Name
+* Email
+* Phone
+* Message
+* (Any additional fields?)
+________________
+
+
+8. Legal & Compliance
+* Privacy Policy: 
+* Terms & Conditions:
+
+
+* Disclaimer
+[This would be a pop-up dialogue box that has a disclaimer and an undertaking with a ‘I Understand/Accept’ button]
+Mockup of the dialogue box:
+DISCLAIMER
+	The Bar Council of India rules prohibit Advocates from advertising or soliciting work in any form or manner. By accessing the Chamber.MU website (www.chambermu.in), the user acknowledges and agrees to the following:
+
+
+This website and its contents are for informational purposes only and are not in the nature of solicitation, advertisement, or inducement by Chamber.MU or its members. Any information provided here does not constitute legal advice and should not be relied upon as such. 
+Accessing this website does not create an attorney-client relationship between the user and Chamber.MU.
+* The user confirms that they have voluntarily sought information about Chamber.MU for their own use and acknowledges that there has been no solicitation, advertisement, or inducement from Chamber.MU, its partners, or its members.
+* This website may collect personal information (e.g., names, contact details, academic qualifications, and professional details) for purposes such as assessing internship and job opportunities, addressing inquiries, providing information about the firm's services, and enhancing client service and engagement. By sharing information, the user consents to the collection, storage, and processing of their data for these purposes in compliance with applicable data protection laws.
+* Users submitting information confirm that it is accurate, complete, and provided voluntarily, and that they have attained the age of majority as per the laws of their jurisdiction.
+* Chamber.MU does not request payments from candidates for recruitment opportunities. Any solicitation of this nature is fraudulent and should be ignored.
+* All information and content on this website are the exclusive intellectual property of Chamber.MU. Unauthorized use, reproduction, or distribution is strictly prohibited.
+* Chamber.MU takes no responsibility or liability for consequences arising from actions taken based on the information or content available on this website.
+By accessing this website, the user agrees to these terms and conditions.
+	ACCEPT
+	________________
+
+
+Website Content Template
+For starters:
+Before preparing/structuring your content, please go through the starter points.
+A. General Information
+* Name: The Lingering Shadows Initiative (LSI)
+* Year Established: 2022
+* Office Address(es): 
+Door No. 24, ST-6 (Chitra Nagar), Narasimhanaickenpalayam, Coimbatore - 641017
+* Contact Number(s): +91 88607 99513
+* Email Address: lingeringshadowsinitiative@gmail.com
+* Social Media Links: 
+LinkedIn: https://www.linkedin.com/company/the-lingering-shadows-initiative/
+Instagram: https://www.instagram.com/thelsiproject?gwpx=dDdjejY4dnEyNm04
+X: https://x.com/thelsiproject?s=11
+________________
+
+
+B. Branding Assets
+Please provide:
+* Logo (high resolution, preferably SVG and PNG): Logo here
+* Brand colors (if any):
+* Fonts (if any):
+* Any existing brochures or marketing materials:
+Portfolios of the founders here
+________________
+
+
+C. Additional Notes
+* Competitor websites you like:
+* Design preferences (e.g., modern, minimal, corporate):
+* Special features required (e.g., appointment booking, live chat, etc.):
+________________
+
+
+Website Pages
+1. Homepage Content
+1.1 Hero Section (Top Banner)
+* Headline (short, impactful):
+________
+* Subheading (1–2 lines explaining your Org/Co):
+A program to amplify the voices of the disenfranchised and marginalised social groups through litigation within courtrooms and through reporting, advocacy, art, storytelling, theatre and films outside the courtrooms.
+* Call-to-Action: Join our Community! [WhatsApp Community for updates]
+________________
+
+
+1.2 Introduction
+* Brief overview of your firm (3–5 sentences):
+The Lingering Shadows Initiative (LSI) is the eccentric soul of Chamber.MU - a law firm dedicated to feminist strategic human rights lawyering. It is the fever dream of a litigating lawyer who nurtures various other interests and pursuits. In fact LSI believes that the law and its practice is truly possible only when a lawyer nourishes themselves with the various stories that lie scattered across the world. This passion for lawyering strengthens our pursuit of travel and to collect stories on our journeys. Through LSI, we record, build, narrate and live stories…stories that are often overlooked…stories that defy social norms…stories that make us uncomfortable.
+________________
+
+
+2. About Us Page
+2.1 Overview
+The Lingering Shadows Initiative (LSI) is a program to amplify the voices of the disenfranchised and marginalised social groups through litigation within courtrooms and through reporting, advocacy, art, storytelling, theatre and films outside the courtrooms.
+
+
+Ujjaini Chatterji and Mayurapriyan Thangavel—Founders, The Lingering Shadows Initiative
+In 2022, Ujjaini Chatterji, along with Mayurapriyan Thangavel, Advocate, founded the Lingering Shadows Initiative through which their Team of Advocates and paralegals regularly visit the communities of migrant workers and refugees, record their stories and narrative for publication in various mediums. The team of advocates also provides extensive legal consultations, representations and training, to the workers, women and refugees living in Delhi NCR, Assam and Tamil Nadu, which impacts 1500 families across India.
+What started off as an academic endeavour has blossomed into a pro-bono litigation program that extends legal and paralegal support to the nameless, stateless persons living on the fringes of bustling cities; battling for mere survival from the margins of civil societies, and lingering in the shadows of tall rights of freedom and liberty asking to be counted, recognised and treated as humans. 
+About the Founders
+Ujjaini Chatterji is a New Delhi–based human rights lawyer specialising in strategic constitutional litigation and feminist human rights lawyering and refugee rights. She represents Rohingya women and children before Indian courts. Ujjaini argued in landmark cases including the case of Sabera Khatoon v. Union of India, a landmark Supreme Court case affirming refugee rights to healthcare and protection from indefinite detention. She is also leading and arguing the public interest litigation in the Supreme Court of India against custodial deaths and indefinite detention of Rohingya refugees in India. Ujjaini is a “Constitution Defender Fellow” at the Centre for Law and Policy Research and a two-time delegate to the UN Commission on the Status of Women. She holds an LL.M. in Human Rights Law from the University of Nottingham and has trained with the European Inter-University Centre.  In 2026, Ujjaini was awarded the “Your Nottingham Alumni Award” for her contribution as an advocate and international human rights lawyer supporting displaced and refugee communities. [Watch on YouTube here]
+Mayurapriyan Thangavel is a New Delhi–based advocate specialising in feminist constitutional law and strategic human rights litigation. His practice focuses on representing Dalit, Bahujan, tribal, Muslim, and Rohingya refugee communities, with an emphasis on issues of statelessness, indefinite detention and deportation. He led the constitutional challenge to the Citizenship Amendment Act, 2019, and its 2024 Rules, on behalf of Member of Parliament P. Sandosh Kumar, arguing its incompatibility with India’s constitutional guarantees of equality and non-discrimination. Mayurapriyan also represents Rohingya women and children before the Delhi High Court and the Supreme Court of India. He was nominated as a delegate to the 2025 United Nations Commission on the Status of Women. A law graduate from Symbiosis International University (2017), he is also a regular columnist writing on equality, Dravidian politics, constitutionalism, and scientific temper. He is also an artist and an actor [check his profile here].  His paintings have been exhibited across embassies and different galleries. As an actor, he performs in various theatre productions and short films in English and Tamil language.
+Ujjaini and Mayurapriyan collaborate on constitutional litigation, diplomacy, and policy advocacy rooted in social justice. It is through this collaborative effort that the LSI is born and thriving. 
+[Link to their creative portfolios here]
+________________
+
+
+2.2 Mission & Vision
+The LSI lives its vision by supporting:
+* Pro-bono litigation
+* Para-legal advisory forums
+* Specialised workshops
+* Ground report, academic research papers, articles, and digital blogs
+* Educational and extra-curricular competitions for school and college students
+* Seminars, Talks, Conferences, Webinars, and Panel Discussions
+* Representation and Collaboration with International organisations and forums
+* Training and T-T-T Sessions (especially on POSH, POCSO, Cyber Crimes, etc.)
+* Certificate courses 
+* Podcasts
+* Theatre, Film-screenings, Storytelling
+* Art exhibitions
+
+
+Globetrotting and Human Rights
+LSI is the story of stories it has nurtured, the voice of the voiceless, and the face of faceless non-entities that are trapped in the binaries of statehood. Carrying forward its vision of creating a global network of passionate young lawyers, practitioners, activists, storytellers, artists, and human rights advocates, the founders of LSI live the philosophy of backpackers and vagabonds. The LSI team travels across the world where they cover ground reports and tell stories about different places, through cuisines, adventure sports, treks, swims, art, music, and heritage walks as exercises to explore cultures. 
+
+
+Way ahead
+The team LSI looks forward to organising workshops and retreats in different parts of the world to offer a select few a slice of this life—living, travelling and working in true bohemian style.
+
+
+Objectives of LSI
+* Protection of Stateless persons who are vulnerable to unlawful detentions and even deportation through strategic litigation;
+* Strategic litigation to implement the right to life, personal liberty and right to health of detainees in detention centres;
+* To build a self sustaining team of dedicated young lawyers and researchers which train to work on issues of citizenship and statelessness beyond the project timelines;
+________________
+
+
+3. Team Page
+3.1 Team Member Profile
+* 3.1 Team Member Profile
+Designation
+	Team Members
+	Details
+	Founder
+	Ujjaini Chatterji, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications (Optional):
+Areas of Expertise (Optional):
+Years of Experience (Optional):
+LinkedIn Profile (Optional): LinkedIn
+	Founder
+	Mayurapriyan Thangavel, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications (Optional):
+Areas of Expertise (Optional):
+Years of Experience (Optional):
+LinkedIn Profile (Optional): LinkedIn
+	Panel Lawyer
+	Mahvish Fatima, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications: B.A.LL.B (Hons.)
+LinkedIn Profile (Optional): LinkedIn
+	Panel Lawyer
+	Izeen Fatima, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications: B.A. (Hons.) (Psychology), LL.B.
+LinkedIn Profile (Optional): LinkedIn
+	Panel Lawyer
+	Tanzeel Islam Khan, Advocate
+	Profile Photo: Picture here
+Bio: Bio here
+Qualifications: B.A.LL.B (Hons.)
+LinkedIn Profile (Optional): LinkedIn
+	Legal Intern
+	Ms. Bisman Kaur
+	Profile Photo: Picture here
+Bio: Bio here
+LinkedIn Profile (Optional): LinkedIn
+	________________
+
+
+4. Our Stories
+4.1 Story Entry
+[this is purposefully left blank]
+________________
+
+
+5. Our other Spaces
+The Young Lawyers Network- a network of dynamic, inventive, skilled, articulate, accountable and professional human rights lawyers with exposure in the legal field and immense ambition to develop and expand human rights lawyering as a practice.
+[This will be hyperlinked to lead to a separate landing page, the content for that page is here]
+The Young Lawyers Diary- A blog for young lawyers to share their lived experiences.
+[This will lead to a separate landing page where we will put out blogs and short article entries and have a picture gallery as well]
+Rising Peacock- The educational wing of Chamber.MU and LSI that actively works towards transforming education through globally aligned learning, educator excellence, and future-ready student development.
+[This will be hyperlinked to lead to the RP website]
+Virtuosity Legal- The Knowledge Partner to Chamber.MU and LSI, Virtuosity Legal is an independent, student-driven initiative with a clear vision, to bring clarity, authenticity, and depth to the study and practice of law.
+[This will be hyperlinked to lead to Virtuosity Legal website]
+
+
+5.1. Join Our Community:
+7.1.1. Newsletter Community
+7.1.2. WhatsApp Community for updates
+________________
+
+
+6. Contact Page
+6.1 Contact Details
+* Address: Door No. 24, ST-6 (Chitra Nagar), Narasimhanaickenpalayam, Coimbatore - 641017
+* Phone: +91 88607 99513
+* Email: lingeringshadowsinitiative@gmail.com
+________________
+
+
+6.2 Contact Form Fields
+* Name
+* Email
+* Phone
+* Tell us your story
+________________
+
+
+7. Legal & Compliance
+* Privacy Policy: 
+* Terms & Conditions:
+* Disclaimer:
+________________
