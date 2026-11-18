@@ -283,7 +283,7 @@ export default function TeamPage() {
                           alt={assoc.name}
                           fill
                           sizes="(max-width: 640px) 100vw, 220px"
-                          className="object-cover object-top"
+                          className="object-cover object-center"
                         />
                       </div>
                     </div>
