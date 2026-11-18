@@ -29,7 +29,6 @@ export const MILESTONES = [
     title: 'Founding of Chamber.MU & International Consultancies',
     desc: 'Established Chamber.MU as a premier feminist constitutional law firm. Independent consultancy on human rights research for international organizations across England, Bangladesh, and South Asia.',
     tag: 'Chambers Heritage',
-    link: 'https://www.probonoconference.org/2022-pg-a2jx-the-lingering-shadow-initiative-parchaayi-project-a-ground-report-on-the-situation-of-migrant-workers-and-the-rohingya-refugees-in-delhi-ncr/',
   },
   {
     year: '2019',

@@ -48,7 +48,7 @@ export default function Header() {
             <div className="relative w-10 h-10 overflow-hidden rounded">
               <Image
                 src="/logos/chamber-mu.svg"
-                alt="Chamber.MU Emblem"
+                alt="Chamber.MU Logo"
                 fill
                 className="object-contain"
                 priority

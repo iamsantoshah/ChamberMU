@@ -28,7 +28,7 @@ const PARTNERS = [
     highlights: [
       'Supreme Court CAA Constitutional Challenge',
       'UN Commission on the Status of Women 2025 Delegate',
-      'Co-Founder, Lingering Shadows Initiative',
+      'Co-Founder, Chamber.MU',
       'Practicing before Supreme Court of India & High Courts',
     ],
   },
@@ -59,7 +59,7 @@ const ASSOCIATES = [
   {
     name: 'Mahvish Fatima',
     role: 'Associate, Advocate',
-    image: '/images/team/mahvish-fatima-portrait.jpg',
+    image: '/images/team/mahvish-fatima-upright.jpg',
     education: 'B.A. LL.B. (Hons.), Faculty of Law, Aligarh Muslim University (2025)',
     bar: 'Bar Council of Delhi',
     bioPdf: '/docs/mahvish-fatima-bio.pdf',

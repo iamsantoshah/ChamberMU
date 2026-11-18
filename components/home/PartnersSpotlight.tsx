@@ -7,7 +7,7 @@ const ASSOCIATES_PREVIEW = [
   {
     name: 'Mahvish Fatima',
     role: 'Associate, Advocate',
-    image: '/images/team/mahvish-fatima-portrait.jpg',
+    image: '/images/team/mahvish-fatima-upright.jpg',
     education: 'AMU Faculty of Law (2025)',
     focus: 'Statelessness, Habeas Corpus & Arbitration',
   },

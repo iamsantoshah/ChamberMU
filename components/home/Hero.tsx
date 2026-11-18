@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Subtle background ornament */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 opacity-5 pointer-events-none">
         <Image
-          src="/logos/chamber-mu-emblem.svg"
+          src="/logos/chamber-mu-transparent.svg"
           alt=""
           width={400}
           height={400}

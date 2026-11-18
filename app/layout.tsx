@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     'Mayurapriyan Thangavel',
   ],
   icons: {
-    icon: '/logos/chamber-mu-emblem.svg',
-    shortcut: '/logos/chamber-mu-emblem.svg',
-    apple: '/logos/chamber-mu-emblem.svg',
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/logos/chamber-mu.svg',
   },
   openGraph: {
     title: 'Chamber.MU | Advocates & Legal Consultants',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: '/logos/chamber-mu.svg',
         width: 800,
         height: 800,
-        alt: 'Chamber.MU Emblem',
+        alt: 'Chamber.MU',
       },
     ],
     locale: 'en_IN',

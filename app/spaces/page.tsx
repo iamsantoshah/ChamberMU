@@ -9,7 +9,19 @@ export const metadata: Metadata = {
     'Ecosystem initiatives affiliated with Chamber.MU, including The Young Lawyers Network, The Young Lawyers Diary, Rising Peacock, and Virtuosity Legal.',
 };
 
-const SPACES = [
+interface SpaceItem {
+  title: string;
+  tag: string;
+  icon: React.ComponentType<{ className?: string }>;
+  desc: string;
+  highlights: string[];
+  pdf?: string;
+  pdfTitle?: string;
+  link?: string;
+  actionText?: string;
+}
+
+const SPACES: SpaceItem[] = [
   {
     title: 'The Young Lawyers Network',
     tag: 'Professional Legal Network',
@@ -20,9 +32,8 @@ const SPACES = [
       'Advanced workshops on strategic constitutional drafting',
       'Bridging young advocates with international human rights networks',
     ],
-    pdf: '/docs/young-lawyers-network-proposal.pdf',
-    pdfTitle: 'The Young Lawyers Network — A Proposal (PDF)',
-    actionText: 'Download Charter Proposal',
+    link: '/contact',
+    actionText: 'Connect with Network',
   },
   {
     title: 'The Young Lawyers Diary',
