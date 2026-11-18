@@ -59,7 +59,7 @@ const ASSOCIATES = [
   {
     name: 'Mahvish Fatima',
     role: 'Associate, Advocate',
-    image: '/images/team/mahvish-fatima.jpg',
+    image: '/images/team/mahvish-fatima-portrait.jpg',
     education: 'B.A. LL.B. (Hons.), Faculty of Law, Aligarh Muslim University (2025)',
     bar: 'Bar Council of Delhi',
     bioPdf: '/docs/mahvish-fatima-bio.pdf',
@@ -73,7 +73,7 @@ const ASSOCIATES = [
   {
     name: 'Izeen Fatima',
     role: 'Associate, Advocate',
-    image: '/images/team/izeen-fatima.jpg',
+    image: '/images/team/izeen-fatima-portrait.jpg',
     education: 'B.A. (Hons.) Psychology (Jamia Millia Islamia), LL.B. (Campus Law Centre, University of Delhi), Adv. PG Diploma in IHL (NALSAR)',
     bar: 'Practicing Advocate, New Delhi',
     bioPdf: '/docs/izeen-fatima-bio.pdf',

@@ -7,14 +7,14 @@ const ASSOCIATES_PREVIEW = [
   {
     name: 'Mahvish Fatima',
     role: 'Associate, Advocate',
-    image: '/images/team/mahvish-fatima.jpg',
+    image: '/images/team/mahvish-fatima-portrait.jpg',
     education: 'AMU Faculty of Law (2025)',
     focus: 'Statelessness, Habeas Corpus & Arbitration',
   },
   {
     name: 'Izeen Fatima',
     role: 'Associate, Advocate',
-    image: '/images/team/izeen-fatima.jpg',
+    image: '/images/team/izeen-fatima-portrait.jpg',
     education: 'Campus Law Centre, DU / NALSAR',
     focus: 'Detention Justice & Gender Rights',
   },
