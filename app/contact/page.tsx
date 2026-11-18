@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { MapPin, Phone, Mail, Send, CheckCircle2, ShieldCheck, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, CheckCircle2, ShieldCheck, Clock, ExternalLink } from 'lucide-react';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -15,7 +15,6 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate inquiry submission
     setSubmitted(true);
   };
 
@@ -32,7 +31,7 @@ export default function ContactPage() {
               Connect with Chamber.MU
             </h1>
             <p className="text-base sm:text-lg font-light text-neutral-700 leading-relaxed">
-              For professional consultations, trial court or appellate litigation, alternate dispute resolution, or research inquiries, please reach out to our offices in New Delhi or Coimbatore.
+              For professional legal consultations, trial court or appellate litigation, alternate dispute resolution, or research inquiries, please reach out to our chambers in New Delhi or Coimbatore.
             </p>
           </div>
         </div>
@@ -87,7 +86,7 @@ export default function ContactPage() {
                     <span>England Chapter</span>
                   </div>
                   <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
-                    International Human Rights Law Research &amp; Advisory
+                    International Human Rights Law Research &amp; Advisory Consultancies
                   </p>
                 </div>
               </div>
@@ -95,7 +94,7 @@ export default function ContactPage() {
               {/* Direct Channels */}
               <div className="p-6 bg-[#FBF5EC] border border-[#E7DFD5] rounded-sm space-y-4">
                 <h3 className="text-xs uppercase tracking-wider font-semibold text-neutral-900">
-                  Direct Inquiries
+                  Direct Inquiries &amp; Channels
                 </h3>
                 <div className="space-y-3 text-sm font-light text-neutral-800">
                   <div className="flex items-center gap-3">
@@ -111,6 +110,29 @@ export default function ContactPage() {
                     </a>
                   </div>
                 </div>
+
+                <div className="pt-2 border-t border-[#E8E0D5] flex items-center gap-4 text-xs">
+                  <a
+                    href="https://www.instagram.com/thechamber.mu?igsi=MXd5djlwajhyMWk4bQ%3D%3D&utm_source=qr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-[#94753D] hover:underline"
+                  >
+                    <span>Instagram</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                  <span className="text-neutral-400">•</span>
+                  <a
+                    href="https://x.com/thechambermu?s=11"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-[#94753D] hover:underline"
+                  >
+                    <span>X / Twitter</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
+
                 <div className="pt-2 text-[11px] text-neutral-500 flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5" />
                   <span>Chambers Hours: Mon–Sat, 10:00 AM – 7:00 PM IST</span>
@@ -234,7 +256,7 @@ export default function ContactPage() {
                       />
                     </div>
 
-                    <div className="pt-2 flex items-center justify-between">
+                    <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                       <span className="text-[11px] text-neutral-500 flex items-center gap-1.5">
                         <ShieldCheck className="w-3.5 h-3.5 text-[#A88B58]" />
                         <span>Confidential &amp; Subject to BCI Regulations</span>
@@ -242,7 +264,7 @@ export default function ContactPage() {
 
                       <button
                         type="submit"
-                        className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#0B0B0C] hover:bg-neutral-800 text-[#FEF9F3] text-xs uppercase tracking-[0.18em] font-medium rounded-sm transition-colors shadow-sm"
+                        className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#0B0B0C] hover:bg-neutral-800 text-[#FEF9F3] text-xs uppercase tracking-[0.18em] font-medium rounded-sm transition-colors shadow-sm"
                       >
                         <Send className="w-3.5 h-3.5 text-[#A88B58]" />
                         <span>Submit Inquiry</span>

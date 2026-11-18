@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Download, FileText, ExternalLink, Mail, Award, BookOpen, GraduationCap } from 'lucide-react';
+import { Download, FileText, Award, BookOpen, GraduationCap, ShieldCheck, Scale, Globe } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'People & Chambers Directory | Chamber.MU Advocates',
@@ -16,14 +16,14 @@ const PARTNERS = [
     name: 'Mayurapriyan Thangavel',
     role: 'Partner, Advocate',
     image: '/images/team/mayurapriyan-thangavel.jpg',
-    education: 'B.A. LL.B. (Symbiosis International University, 2017)',
+    education: 'B.A. LL.B., Symbiosis International University (2017)',
     expertise: 'Feminist Constitutional Law, Refugee Defense, Statelessness, CAA Litigation',
     bioPdf: '/docs/mayur-bio.pdf',
     portfolioPdf: '/docs/artist-portfolio-mayurapriyan.pdf',
     bio: [
-      'Mayurapriyan Thangavel is an advocate, columnist, artist, and theatre actor based in New Delhi. Specialising in feminist constitutional law and strategic human rights litigation, his practice is dedicated to representing Dalit, Bahujan, tribal, Muslim, and Rohingya refugee communities, with a particular focus on issues of statelessness, indefinite detention, and deportation.',
-      'He led the historic constitutional challenge to the Citizenship Amendment Act (CAA), 2019, and its 2024 Rules, on behalf of Member of Parliament P. Sandosh Kumar before the Supreme Court of India, arguing its incompatibility with India’s constitutional guarantees of equality and secularism. Mayurapriyan also represents Rohingya women and children before the Delhi High Court and Supreme Court.',
-      'He was nominated as a delegate to the 2025 United Nations Commission on the Status of Women (UN CSW). Alongside his litigation practice, Mayurapriyan is a regular columnist writing on equality, Dravidian politics, constitutionalism, and scientific temper. His paintings have been exhibited across embassies and galleries, and as an actor, he performs in theatre productions and short films in English and Tamil.',
+      'Mayurapriyan Thangavel is an advocate, columnist, artist, and theatre actor based in New Delhi. Specialising in feminist constitutional law and strategic human rights litigation, his practice focuses on representing Dalit, Bahujan, tribal, Muslim, and Rohingya refugee communities, with an emphasis on issues of statelessness, indefinite detention, and deportation.',
+      'He led the landmark constitutional challenge to the Citizenship Amendment Act (CAA), 2019, and its 2024 Rules before the Supreme Court of India on behalf of Member of Parliament P. Sandosh Kumar, arguing its incompatibility with India’s constitutional guarantees of equality and non-discrimination. Mayurapriyan also represents Rohingya women and children before the Delhi High Court and Supreme Court.',
+      'Nominated as a delegate to the 2025 United Nations Commission on the Status of Women (UN CSW). Alongside his litigation practice, Mayurapriyan is a regular columnist writing on equality, Dravidian politics, constitutionalism, and scientific temper. His paintings have been exhibited across embassies and galleries, and as an actor, he performs in theatre productions and short films in English and Tamil.',
     ],
     highlights: [
       'Supreme Court CAA Constitutional Challenge',
@@ -37,13 +37,13 @@ const PARTNERS = [
     name: 'Ujjaini Chatterji',
     role: 'Partner, Advocate',
     image: '/images/team/ujjaini-chatterji.jpg',
-    education: 'LL.M. in Human Rights Law (University of Nottingham, UK)',
-    expertise: 'Constitutional Law, Refugee Rights, Statelessness, Strategic Feminist Litigation, SGBV',
+    education: 'LL.M. in Human Rights Law, University of Nottingham (UK)',
+    expertise: 'Constitutional Litigation, Refugee Rights, Statelessness, Strategic Feminist Lawyering, SGBV',
     bioPdf: '/docs/ujjaini-chatterji-bio.pdf',
     portfolioPdf: '/docs/unveiling-tales-untold-ujjaini.pdf',
     bio: [
-      'Ujjaini Chatterji is an advocate practicing in the courts of India, specialising in strategic constitutional litigation, feminist human rights lawyering, and refugee defense. She graduated with an LL.M. in Human Rights Law from the University of Nottingham on the Developing Solutions Masters Scholarship and GREAT Scholarships India (2017), followed by training at the Venice School of Human Rights, European Inter-University Centre.',
-      'Ujjaini has led and argued landmark public interest litigations in the Supreme Court of India, including Sabera Khatoon v. Union of India, which established refugees’ fundamental right to healthcare and protection from indefinite detention. She is presently arguing public interest litigations against custodial deaths and indefinite detention of refugees, as well as a habeas corpus petition challenging the custodial disappearance of five Rohingya refugees.',
+      'Ujjaini Chatterji is an advocate practicing across the courts of India, specialising in strategic constitutional litigation, feminist human rights lawyering, and refugee defense. She graduated with an LL.M. in Human Rights Law from the University of Nottingham on the Developing Solutions Masters Scholarship and GREAT Scholarships India (2017), followed by training at the Venice School of Human Rights, European Inter-University Centre.',
+      'Ujjaini has argued landmark public interest litigations in the Supreme Court of India, including Sabera Khatoon v. Union of India, which established refugees’ fundamental right to healthcare and protection from indefinite detention. She is presently arguing public interest litigations against custodial deaths and indefinite detention of refugees, as well as a habeas corpus petition challenging the custodial disappearance of five Rohingya refugees.',
       'In 2024, Ujjaini was awarded the prestigious Constitution Defenders Fellowship by the Centre for Law and Policy Research (CLPR). In 2026, she received the "Your Nottingham Alumni Award" for her international human rights advocacy. She is a two-time delegate to the UN Commission on the Status of Women, Board Member of DAJI, and Director of Governance & Compliance for the Rohingya Youth Union.',
     ],
     highlights: [
@@ -63,7 +63,12 @@ const ASSOCIATES = [
     education: 'B.A. LL.B. (Hons.), Faculty of Law, Aligarh Muslim University (2025)',
     bar: 'Bar Council of Delhi',
     bioPdf: '/docs/mahvish-fatima-bio.pdf',
-    bio: 'Registered with the Bar Council of Delhi, Mahvish graduated from Aligarh Muslim University where she served as Joint Editor of the AMU Law Review and Secretary of the Intellectual Property & Innovation Society. Co-founder of the legal academic blog Virtuosity Legal. Practices across courts in India including the Supreme Court, focusing on statelessness, refugee defense, criminal trials, bail issues, and commercial arbitration. Counsel in Rita Manchanda v. UOI (2025) and CAA constitutional petitions.',
+    specialties: ['Statelessness & Citizenship', 'Habeas Corpus Litigations', 'Commercial Arbitration', 'AI & Technology Law'],
+    bio: [
+      'Mahvish Fatima, an Advocate registered with the Bar Council of Delhi, is a 2025 B.A. LL.B. (Hons.) graduate from the Faculty of Law, Aligarh Muslim University. As an alumnus of AMU, she co-founded the legal academic blog Virtuosity Legal. During her time at AMU, Mahvish served as Joint Editor of the AMU Law Review (2022–2023) and Secretary of the Intellectual Property and Innovation Society (2023–2024).',
+      'Mahvish currently works alongside Ujjaini Chatterji and T. Mayurapriyan, practicing across courts in India, including the Supreme Court of India, with a focus on statelessness, refugees, asylum, citizenship, and human rights. Prominent cases represented include Rita Manchanda v. Union of India (2025)—a habeas corpus petition challenging the disappearance of five Rohingya refugees from New Delhi—and the batch Writ Petitions challenging the Citizenship (Amendment) Act, 2019.',
+      'Additionally, she represents clients in criminal trials, bail matters, commercial arbitrations, and immigration appeals. In 2026, she represented the Muslim Youth and AMU at the International Conclave on Youth from Communities Discriminated on Work and Descent (CDWD). She has also co-authored chapters on AI consumer rights regulation in Voices of Law in Indo-Pacific (2025).',
+    ],
   },
   {
     name: 'Izeen Fatima',
@@ -72,7 +77,12 @@ const ASSOCIATES = [
     education: 'B.A. (Hons.) Psychology (Jamia Millia Islamia), LL.B. (Campus Law Centre, University of Delhi), Adv. PG Diploma in IHL (NALSAR)',
     bar: 'Practicing Advocate, New Delhi',
     bioPdf: '/docs/izeen-fatima-bio.pdf',
-    bio: 'Advocate, published author ("Snowflakes in Sunshine"), UNESCO Changemaker ’23, UNAI Millennium Fellow ’24, and national-level air pistol shooter. Brings an interdisciplinary approach blending law, psychology, and social justice. Focuses on citizenship, refugee rights, detention justice, commercial litigation, and gender rights. Founder of Pink Legal Club Ibtida for menstrual and cyber safety rights.',
+    specialties: ['Gender Rights & SGBV', 'Detention Justice', 'Refugee Rights', 'POCSO & Child Protection'],
+    bio: [
+      'Izeen Fatima is a practicing advocate based in New Delhi, a published author, POCSO TTT-trained expert, UNESCO Changemaker ’23, UNAI Millennium Fellow ’24, YLAC Policy in Action Fellow 2025, and national-level air pistol shooter. She brings an unusual interdisciplinary mix of legal rigour, psychology, and social consciousness to her work.',
+      'A law graduate from Campus Law Centre, University of Delhi, Izeen also holds a Bachelor’s in Psychology (Honours) from Jamia Millia Islamia and an Advanced Postgraduate Diploma in International Humanitarian Law from NALSAR. Her wider practice encompasses human rights, citizenship, refugee rights, detention justice, and civil-commercial disputes.',
+      'She founded Pink Legal Club Ibtida in December 2023 to advance menstrual health, child protection, cyber safety, and gender rights. As a YLAC Fellow 2025, she contributed to policy briefs on women in the informal economy for Maharashtra state legislators. She is also the author of the published book "Snowflakes in Sunshine" and was recognized as a LinkedIn Top Voice for Social Work.',
+    ],
   },
   {
     name: 'Tanzeel Islam Khan',
@@ -81,23 +91,33 @@ const ASSOCIATES = [
     education: 'B.A. LL.B. (Hons.), Faculty of Law, Aligarh Muslim University (2026)',
     bar: 'Bar Council of Delhi',
     bioPdf: '/docs/tanzeel-khan-bio.pdf',
-    bio: 'Registered with the Bar Council of Delhi. Co-founder of Virtuosity Legal, with regular writings published on LiveLaw and Maktoob. Specialises in constitutional law, political thought, and AI regulation. Author of ‘Users First: A Consumer Rights Approach to AI Regulation’ (Voices of Law in Indo-Pacific, 2025). Forthcoming research under publication with Thomson Reuters.',
+    specialties: ['Constitutional Law', 'Technology & AI Law', 'Political Thought', 'Legal Commentary'],
+    bio: [
+      'Tanzeel Islam Khan is an Advocate registered with the Bar Council of Delhi and a graduate of the Faculty of Law, Aligarh Muslim University (2026). He is the Co-Founder of Virtuosity Legal, a peer-reviewed legal academic blog, and a regular columnist for LiveLaw, Maktoob, and WritingLaw.',
+      'His legal research and litigation interests span across Constitutional Law, Technology Governance, and Political Thought. He has co-authored multiple papers examining the intersection of technology and law, including "Users First: A Consumer Rights Approach to AI Regulation" in Voices of Law in Indo-Pacific (2025), with forthcoming work under publication with Thomson Reuters.',
+      'Tanzeel blends classical legal thought with contemporary litigation, with a focus on procedural rights, trial court litigation, and state accountability.',
+    ],
   },
   {
     name: 'Ms. Bisman Kaur',
     role: 'Legal Intern',
     image: '/images/team/bisman-kaur.jpg',
     education: 'Fourth-year B.A. LL.B. (Hons.), Rajiv Gandhi National University of Law (RGNUL), Punjab',
-    bar: 'Specialising in International Law',
+    bar: 'Specialising in Public International Law',
     bioPdf: '/docs/bisman-kaur-bio.pdf',
-    bio: 'Associated with Chamber.MU and the Lingering Shadows Initiative since October 2025. Focuses on refugee protection, immigration detention, Special Leave Petitions, and comparative constitutional law. Previous experience with the Office of the Hon’ble Chief Justice of India, Trilegal Antitrust team, and Teaching Assistant for Public International Law at RGNUL.',
+    specialties: ['Refugee & Migration Law', 'International Humanitarian Law', 'Special Leave Petitions', 'Statelessness Research'],
+    bio: [
+      'Bisman Kaur is a fourth-year law student at RGNUL Punjab specialising in International Law, Refugee & Migration Law, International Humanitarian Law, and Transitional Justice. She has been associated with Chamber.MU and Adv. Ujjaini Chatterji since October 2025.',
+      'Her work centres on refugee protection, immigration detention, and comparative research on statelessness across domestic and international legal frameworks. She has assisted in legal research and drafting for Special Leave Petitions, Writ Petitions, legal notices, and constitutional submissions before High Courts and the Supreme Court.',
+      'Her background includes clinical internships with the Office of the Hon’ble Chief Justice of India, Trilegal’s Competition & Antitrust practice, and serving as Teaching Assistant for Public International Law at RGNUL and Legal Intern with the Asian-African Legal Consultative Organization (AALCO).',
+    ],
   },
 ];
 
 const ENGLAND_RESEARCHERS = [
-  { name: 'Lubana', role: 'Legal Researcher', chapter: 'England Chapter' },
-  { name: 'Dylan', role: 'Legal Researcher', chapter: 'England Chapter' },
-  { name: 'Grace', role: 'Legal Researcher', chapter: 'England Chapter' },
+  { name: 'Lubana', role: 'Legal Researcher', chapter: 'England Chapter', focus: 'Comparative Human Rights Jurisprudence' },
+  { name: 'Dylan', role: 'Legal Researcher', chapter: 'England Chapter', focus: 'International Humanitarian Law & Asylum' },
+  { name: 'Grace', role: 'Legal Researcher', chapter: 'England Chapter', focus: 'Transnational Advocacy & Public Policy' },
 ];
 
 export default function TeamPage() {
@@ -142,7 +162,9 @@ export default function TeamPage() {
                       src={partner.image}
                       alt={partner.name}
                       fill
+                      sizes="(max-width: 1024px) 100vw, 350px"
                       className="object-cover object-top"
+                      priority
                     />
                   </div>
 
@@ -240,40 +262,70 @@ export default function TeamPage() {
             <h2 className="text-2xl sm:text-3xl font-light font-serif text-[#0B0B0C]">
               Associates &amp; Legal Interns
             </h2>
+            <p className="text-xs sm:text-sm font-light text-neutral-600 mt-2">
+              Our New Delhi team handles trial court defense, appellate drafting, research, and community-led legal interventions.
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {ASSOCIATES.map((assoc, idx) => (
               <div
                 key={idx}
-                className="bg-white border border-[#E7DFD5] p-6 sm:p-8 rounded-sm shadow-sm flex flex-col justify-between space-y-6"
+                className="bg-white border border-[#E7DFD5] rounded-sm shadow-sm overflow-hidden flex flex-col justify-between"
               >
-                <div className="space-y-4">
-                  <div className="flex items-center gap-4">
-                    <div className="relative w-20 h-20 rounded-full overflow-hidden shrink-0 bg-neutral-100 border border-[#E7DFD5]">
-                      <Image
-                        src={assoc.image}
-                        alt={assoc.name}
-                        fill
-                        className="object-cover object-top"
-                      />
+                <div>
+                  {/* Photo Banner with Profile Image */}
+                  <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 p-6 sm:p-8 border-b border-[#F0E8DD] bg-[#FAF4EB]">
+                    <div className="sm:col-span-5">
+                      <div className="relative h-64 sm:h-72 w-full rounded-sm overflow-hidden bg-neutral-200 border border-[#E2D8CA] shadow-sm">
+                        <Image
+                          src={assoc.image}
+                          alt={assoc.name}
+                          fill
+                          sizes="(max-width: 640px) 100vw, 220px"
+                          className="object-cover object-top"
+                        />
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="text-xl font-medium text-[#0B0B0C]">{assoc.name}</h3>
-                      <p className="text-xs uppercase tracking-wider text-[#94753D] font-medium mt-0.5">
+
+                    <div className="sm:col-span-7 flex flex-col justify-center space-y-2">
+                      <span className="inline-block px-2.5 py-0.5 bg-[#0B0B0C] text-[#FEF9F3] text-[10px] uppercase tracking-widest font-medium rounded-sm self-start">
                         {assoc.role}
+                      </span>
+                      <h3 className="text-2xl font-light font-serif text-[#0B0B0C]">
+                        {assoc.name}
+                      </h3>
+                      <p className="text-xs text-neutral-600 font-medium">
+                        {assoc.bar}
                       </p>
-                      <p className="text-[11px] text-neutral-500 font-light mt-1">{assoc.bar}</p>
+                      <div className="pt-2 text-xs font-light text-neutral-500 leading-snug">
+                        {assoc.education}
+                      </div>
+
+                      <div className="pt-3 flex flex-wrap gap-1.5">
+                        {assoc.specialties.map((spec, sidx) => (
+                          <span
+                            key={sidx}
+                            className="px-2 py-0.5 bg-white text-[#94753D] text-[10px] font-medium rounded border border-[#E7DFD5]"
+                          >
+                            {spec}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   </div>
 
-                  <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
-                    {assoc.bio}
-                  </p>
+                  {/* Biography text */}
+                  <div className="p-6 sm:p-8 space-y-3 text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
+                    {assoc.bio.map((para, pidx) => (
+                      <p key={pidx}>{para}</p>
+                    ))}
+                  </div>
                 </div>
 
-                <div className="pt-4 border-t border-[#F0E8DD] flex items-center justify-between">
-                  <span className="text-[11px] text-neutral-500">{assoc.education}</span>
+                {/* Footer Download Link */}
+                <div className="px-6 sm:px-8 py-4 bg-[#FBF5EC] border-t border-[#F0E8DD] flex items-center justify-between">
+                  <span className="text-[11px] text-neutral-500">Chamber.MU India Office</span>
                   {assoc.bioPdf && (
                     <a
                       href={assoc.bioPdf}
@@ -281,7 +333,8 @@ export default function TeamPage() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs text-[#94753D] hover:underline font-medium"
                     >
-                      <span>Bio PDF</span>
+                      <FileText className="w-3.5 h-3.5" />
+                      <span>Download Full Bio (PDF)</span>
                       <Download className="w-3.5 h-3.5" />
                     </a>
                   )}
@@ -311,14 +364,17 @@ export default function TeamPage() {
             {ENGLAND_RESEARCHERS.map((res, i) => (
               <div
                 key={i}
-                className="p-6 bg-white border border-[#E7DFD5] rounded-sm text-center space-y-2 shadow-sm"
+                className="p-8 bg-white border border-[#E7DFD5] rounded-sm text-center space-y-3 shadow-sm hover:border-neutral-900 transition-colors"
               >
-                <div className="w-12 h-12 mx-auto rounded-full bg-[#FBF5EC] flex items-center justify-center text-[#94753D] font-serif text-lg font-semibold">
+                <div className="w-14 h-14 mx-auto rounded-full bg-[#FBF5EC] border border-[#E7DFD5] flex items-center justify-center text-[#94753D] font-serif text-xl font-semibold">
                   {res.name[0]}
                 </div>
-                <h3 className="text-base font-medium text-[#0B0B0C]">{res.name}</h3>
-                <p className="text-xs uppercase tracking-wider text-neutral-500">{res.role}</p>
-                <span className="inline-block text-[11px] px-2 py-0.5 bg-[#FBF5EC] text-[#94753D] rounded border border-[#EBE3D8]">
+                <div>
+                  <h3 className="text-lg font-medium text-[#0B0B0C]">{res.name}</h3>
+                  <p className="text-xs uppercase tracking-wider text-[#94753D] font-medium mt-0.5">{res.role}</p>
+                </div>
+                <p className="text-xs font-light text-neutral-600">{res.focus}</p>
+                <span className="inline-block text-[11px] px-2.5 py-1 bg-[#FBF5EC] text-neutral-700 rounded border border-[#EBE3D8]">
                   {res.chapter}
                 </span>
               </div>
