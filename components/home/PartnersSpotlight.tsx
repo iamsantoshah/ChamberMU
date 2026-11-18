@@ -199,13 +199,13 @@ export default function PartnersSpotlight() {
                 href="/team"
                 className="bg-white border border-[#E7DFD5] hover:border-neutral-900 rounded-sm overflow-hidden group transition-all duration-300 shadow-sm flex flex-col"
               >
-                <div className="relative h-64 w-full bg-neutral-200 overflow-hidden">
+                <div className="relative aspect-[3/4] w-full bg-neutral-200 overflow-hidden">
                   <Image
                     src={assoc.image}
                     alt={assoc.name}
                     fill
                     sizes="(max-width: 640px) 100vw, 250px"
-                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 left-3">
                     <span className="px-2 py-0.5 bg-[#0B0B0C]/80 text-[#FEF9F3] text-[9px] uppercase tracking-widest font-medium rounded-sm">

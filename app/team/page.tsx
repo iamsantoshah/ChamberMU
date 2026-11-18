@@ -277,13 +277,13 @@ export default function TeamPage() {
                   {/* Photo Banner with Profile Image */}
                   <div className="grid grid-cols-1 sm:grid-cols-12 gap-6 p-6 sm:p-8 border-b border-[#F0E8DD] bg-[#FAF4EB]">
                     <div className="sm:col-span-5">
-                      <div className="relative h-64 sm:h-72 w-full rounded-sm overflow-hidden bg-neutral-200 border border-[#E2D8CA] shadow-sm">
+                      <div className="relative aspect-[3/4] w-full rounded-sm overflow-hidden bg-neutral-200 border border-[#E2D8CA] shadow-sm">
                         <Image
                           src={assoc.image}
                           alt={assoc.name}
                           fill
-                          sizes="(max-width: 640px) 100vw, 220px"
-                          className="object-cover object-center"
+                          sizes="(max-width: 640px) 100vw, 250px"
+                          className="object-cover object-top"
                         />
                       </div>
                     </div>
