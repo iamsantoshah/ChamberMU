@@ -1,27 +1,41 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Download, FileText, ArrowUpRight, Sparkles, GraduationCap, Users2, BookOpen } from 'lucide-react';
+import Image from 'next/image';
+import { ArrowUpRight, Sparkles, GraduationCap, Users2, BookOpen, Globe2 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Other Spaces & Initiatives | Chamber.MU Advocates',
   description:
-    'Ecosystem initiatives affiliated with Chamber.MU, including The Young Lawyers Network, The Young Lawyers Diary, Rising Peacock, and Virtuosity Legal.',
+    'Ecosystem initiatives affiliated with Chamber.MU, including The Lingering Shadows Initiative, The Young Lawyers Network, The Young Lawyers Diary, Rising Peacock, and Virtuosity Legal.',
 };
 
 interface SpaceItem {
   title: string;
   tag: string;
-  icon: React.ComponentType<{ className?: string }>;
+  logo?: string;
+  logoAlt?: string;
+  icon?: React.ComponentType<{ className?: string }>;
   desc: string;
   highlights: string[];
-  pdf?: string;
-  pdfTitle?: string;
   link?: string;
   actionText?: string;
 }
 
 const SPACES: SpaceItem[] = [
+  {
+    title: 'The Lingering Shadows Initiative',
+    tag: 'Flagship Community Initiative',
+    icon: Globe2,
+    desc: 'A program to amplify the voices of disenfranchised and marginalised social groups through litigation within courtrooms and through reporting, advocacy, art, storytelling, theatre, and films outside the courtrooms.',
+    highlights: [
+      'Pro-bono litigation & paralegal clinics impacting 1,500+ families',
+      'Ground reporting & storytelling on statelessness and displacement',
+      'Art exhibitions, theatre productions & cultural explorations',
+    ],
+    link: 'https://www.linkedin.com/company/the-lingering-shadows-initiative/',
+    actionText: 'Explore LSI Initiative',
+  },
   {
     title: 'The Young Lawyers Network',
     tag: 'Professional Legal Network',
@@ -49,6 +63,8 @@ const SPACES: SpaceItem[] = [
   {
     title: 'Rising Peacock',
     tag: 'Educational Wing',
+    logo: '/logos/rising-peacock.svg',
+    logoAlt: 'Rising Peacock Official Logo',
     icon: GraduationCap,
     desc: 'The educational wing of Chamber.MU that actively works towards transforming education through globally aligned learning, educator excellence, and future-ready student development. Equipping students with critical thinking, ethical leadership, and global civic awareness.',
     highlights: [
@@ -62,6 +78,8 @@ const SPACES: SpaceItem[] = [
   {
     title: 'Virtuosity Legal',
     tag: 'Knowledge Partner',
+    logo: '/logos/virtuosity-legal.png',
+    logoAlt: 'Virtuosity Legal Official Logo',
     icon: Sparkles,
     desc: 'Knowledge partner to Chamber.MU. An independent, student-driven initiative with a clear vision: to bring clarity, authenticity, and depth to the study and practice of law. Regularly publishing academic commentaries on technology regulation, constitutional theory, and contemporary legal thought.',
     highlights: [
@@ -69,6 +87,8 @@ const SPACES: SpaceItem[] = [
       'Special focus on AI governance and consumer rights',
       'Bridging legal academia with litigation practice',
     ],
+    link: 'https://virtuositylegal.com',
+    actionText: 'Visit Virtuosity Legal',
   },
 ];
 
@@ -105,9 +125,22 @@ export default function SpacesPage() {
                 >
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
-                      <div className="p-3 bg-[#FBF5EC] rounded-md text-[#94753D]">
-                        <Icon className="w-6 h-6" />
-                      </div>
+                      {space.logo ? (
+                        <div className="relative h-12 w-36 bg-[#FBF5EC] border border-[#E7DFD5] rounded-sm p-1.5 flex items-center justify-center overflow-hidden">
+                          <Image
+                            src={space.logo}
+                            alt={space.logoAlt || space.title}
+                            fill
+                            className="object-contain p-1"
+                          />
+                        </div>
+                      ) : (
+                        Icon && (
+                          <div className="p-3 bg-[#FBF5EC] rounded-md text-[#94753D]">
+                            <Icon className="w-6 h-6" />
+                          </div>
+                        )
+                      )}
                       <span className="text-[11px] font-mono uppercase tracking-widest text-neutral-500 bg-[#FEF9F3] px-2.5 py-1 rounded border border-[#E7DFD5]">
                         {space.tag}
                       </span>
@@ -137,30 +170,20 @@ export default function SpacesPage() {
                   </div>
 
                   <div className="pt-4 border-t border-[#F2ECE3]">
-                    {space.pdf && (
-                      <a
-                        href={space.pdf}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between w-full px-4 py-2.5 bg-[#FBF5EC] hover:bg-[#F3EBE0] border border-[#E7DFD5] rounded text-xs font-medium text-neutral-900 transition-colors"
-                      >
-                        <span className="flex items-center gap-2">
-                          <FileText className="w-4 h-4 text-[#A88B58]" />
-                          {space.pdfTitle}
-                        </span>
-                        <Download className="w-4 h-4 text-neutral-500" />
-                      </a>
-                    )}
-                    {space.link && (
+                    {space.link ? (
                       <a
                         href={space.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        target={space.link.startsWith('http') ? '_blank' : undefined}
+                        rel={space.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                         className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider font-medium text-neutral-900 hover:text-[#94753D] transition-colors"
                       >
-                        <span>{space.actionText}</span>
+                        <span>{space.actionText || 'Learn More'}</span>
                         <ArrowUpRight className="w-4 h-4 text-[#A88B58]" />
                       </a>
+                    ) : (
+                      <span className="text-[11px] font-mono uppercase tracking-wider text-neutral-400">
+                        Chamber.MU Ecosystem
+                      </span>
                     )}
                   </div>
                 </div>

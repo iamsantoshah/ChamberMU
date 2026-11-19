@@ -12,7 +12,6 @@ const NAV_LINKS = [
   { href: '/team', label: 'People' },
   { href: '/media', label: 'Media & Highlights' },
   { href: '/spaces', label: 'Other Spaces' },
-  { href: '/contact', label: 'Contact' },
 ];
 
 export default function Header() {

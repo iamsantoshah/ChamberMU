@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Download, FileText, Award, BookOpen, GraduationCap, ShieldCheck, Scale, Globe } from 'lucide-react';
+import { Download, Award, BookOpen, GraduationCap, ShieldCheck, Scale, Globe } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'People & Chambers Directory | Chamber.MU Advocates',
@@ -18,7 +18,6 @@ const PARTNERS = [
     image: '/images/team/mayurapriyan-thangavel.jpg',
     education: 'B.A. LL.B., Symbiosis International University (2017)',
     expertise: 'Feminist Constitutional Law, Refugee Defense, Statelessness, CAA Litigation',
-    bioPdf: '/docs/mayur-bio.pdf',
     portfolioPdf: '/docs/artist-portfolio-mayurapriyan.pdf',
     bio: [
       'Mayurapriyan Thangavel is an advocate, columnist, artist, and theatre actor based in New Delhi. Specialising in feminist constitutional law and strategic human rights litigation, his practice focuses on representing Dalit, Bahujan, tribal, Muslim, and Rohingya refugee communities, with an emphasis on issues of statelessness, indefinite detention, and deportation.',
@@ -39,7 +38,6 @@ const PARTNERS = [
     image: '/images/team/ujjaini-chatterji.jpg',
     education: 'LL.M. in Human Rights Law, University of Nottingham (UK)',
     expertise: 'Constitutional Litigation, Refugee Rights, Statelessness, Strategic Feminist Lawyering, SGBV',
-    bioPdf: '/docs/ujjaini-chatterji-bio.pdf',
     portfolioPdf: '/docs/unveiling-tales-untold-ujjaini.pdf',
     bio: [
       'Ujjaini Chatterji is an advocate practicing across the courts of India, specialising in strategic constitutional litigation, feminist human rights lawyering, and refugee defense. She graduated with an LL.M. in Human Rights Law from the University of Nottingham on the Developing Solutions Masters Scholarship and GREAT Scholarships India (2017), followed by training at the Venice School of Human Rights, European Inter-University Centre.',
@@ -62,7 +60,6 @@ const ASSOCIATES = [
     image: '/images/team/mahvish-fatima-upright.jpg',
     education: 'B.A. LL.B. (Hons.), Faculty of Law, Aligarh Muslim University (2025)',
     bar: 'Bar Council of Delhi',
-    bioPdf: '/docs/mahvish-fatima-bio.pdf',
     specialties: ['Statelessness & Citizenship', 'Habeas Corpus Litigations', 'Commercial Arbitration', 'AI & Technology Law'],
     bio: [
       'Mahvish Fatima, an Advocate registered with the Bar Council of Delhi, is a 2025 B.A. LL.B. (Hons.) graduate from the Faculty of Law, Aligarh Muslim University. As an alumnus of AMU, she co-founded the legal academic blog Virtuosity Legal. During her time at AMU, Mahvish served as Joint Editor of the AMU Law Review (2022–2023) and Secretary of the Intellectual Property and Innovation Society (2023–2024).',
@@ -76,7 +73,6 @@ const ASSOCIATES = [
     image: '/images/team/izeen-fatima-portrait.jpg',
     education: 'B.A. (Hons.) Psychology (Jamia Millia Islamia), LL.B. (Campus Law Centre, University of Delhi), Adv. PG Diploma in IHL (NALSAR)',
     bar: 'Practicing Advocate, New Delhi',
-    bioPdf: '/docs/izeen-fatima-bio.pdf',
     specialties: ['Gender Rights & SGBV', 'Detention Justice', 'Refugee Rights', 'POCSO & Child Protection'],
     bio: [
       'Izeen Fatima is a practicing advocate based in New Delhi, a published author, POCSO TTT-trained expert, UNESCO Changemaker ’23, UNAI Millennium Fellow ’24, YLAC Policy in Action Fellow 2025, and national-level air pistol shooter. She brings an unusual interdisciplinary mix of legal rigour, psychology, and social consciousness to her work.',
@@ -90,7 +86,6 @@ const ASSOCIATES = [
     image: '/images/team/tanzeel-islam-khan.jpg',
     education: 'B.A. LL.B. (Hons.), Faculty of Law, Aligarh Muslim University (2026)',
     bar: 'Bar Council of Delhi',
-    bioPdf: '/docs/tanzeel-khan-bio.pdf',
     specialties: ['Constitutional Law', 'Technology & AI Law', 'Political Thought', 'Legal Commentary'],
     bio: [
       'Tanzeel Islam Khan is an Advocate registered with the Bar Council of Delhi and a graduate of the Faculty of Law, Aligarh Muslim University (2026). He is the Co-Founder of Virtuosity Legal, a peer-reviewed legal academic blog, and a regular columnist for LiveLaw, Maktoob, and WritingLaw.',
@@ -104,7 +99,6 @@ const ASSOCIATES = [
     image: '/images/team/bisman-kaur.jpg',
     education: 'Fourth-year B.A. LL.B. (Hons.), Rajiv Gandhi National University of Law (RGNUL), Punjab',
     bar: 'Specialising in Public International Law',
-    bioPdf: '/docs/bisman-kaur-bio.pdf',
     specialties: ['Refugee & Migration Law', 'International Humanitarian Law', 'Special Leave Petitions', 'Statelessness Research'],
     bio: [
       'Bisman Kaur is a fourth-year law student at RGNUL Punjab specialising in International Law, Refugee & Migration Law, International Humanitarian Law, and Transitional Justice. She has been associated with Chamber.MU and Adv. Ujjaini Chatterji since October 2025.',
@@ -179,28 +173,14 @@ export default function TeamPage() {
                     </div>
                   </div>
 
-                  {/* Documents & Portfolios */}
-                  <div className="pt-4 border-t border-[#EDE4D8] flex flex-col gap-2.5">
-                    {partner.bioPdf && (
-                      <a
-                        href={partner.bioPdf}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between px-4 py-2.5 bg-[#FBF5EC] hover:bg-[#F3ECE0] border border-[#E7DFD5] rounded text-xs text-neutral-900 transition-colors font-medium"
-                      >
-                        <span className="flex items-center gap-2">
-                          <FileText className="w-3.5 h-3.5 text-[#A88B58]" />
-                          Download Official Bio (PDF)
-                        </span>
-                        <Download className="w-3.5 h-3.5 text-neutral-500" />
-                      </a>
-                    )}
-                    {partner.portfolioPdf && (
+                  {/* Creative Portfolios */}
+                  {partner.portfolioPdf && (
+                    <div className="pt-4 border-t border-[#EDE4D8]">
                       <a
                         href={partner.portfolioPdf}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-between px-4 py-2.5 bg-[#FBF5EC] hover:bg-[#F3ECE0] border border-[#E7DFD5] rounded text-xs text-neutral-900 transition-colors font-medium"
+                        className="inline-flex items-center justify-between w-full px-4 py-2.5 bg-[#FBF5EC] hover:bg-[#F3ECE0] border border-[#E7DFD5] rounded text-xs text-neutral-900 transition-colors font-medium"
                       >
                         <span className="flex items-center gap-2">
                           <BookOpen className="w-3.5 h-3.5 text-[#A88B58]" />
@@ -208,8 +188,8 @@ export default function TeamPage() {
                         </span>
                         <Download className="w-3.5 h-3.5 text-neutral-500" />
                       </a>
-                    )}
-                  </div>
+                    </div>
+                  )}
                 </div>
 
                 {/* Biography & Cases */}
@@ -323,21 +303,10 @@ export default function TeamPage() {
                   </div>
                 </div>
 
-                {/* Footer Download Link */}
-                <div className="px-6 sm:px-8 py-4 bg-[#FBF5EC] border-t border-[#F0E8DD] flex items-center justify-between">
-                  <span className="text-[11px] text-neutral-500">Chamber.MU India Office</span>
-                  {assoc.bioPdf && (
-                    <a
-                      href={assoc.bioPdf}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs text-[#94753D] hover:underline font-medium"
-                    >
-                      <FileText className="w-3.5 h-3.5" />
-                      <span>Download Full Bio (PDF)</span>
-                      <Download className="w-3.5 h-3.5" />
-                    </a>
-                  )}
+                {/* Card Footer */}
+                <div className="px-6 sm:px-8 py-3.5 bg-[#FBF5EC] border-t border-[#F0E8DD] flex items-center justify-between text-[11px] text-neutral-500">
+                  <span>Chamber.MU India Office</span>
+                  <span className="font-mono text-[10px] tracking-wider uppercase text-[#94753D]">New Delhi Chambers</span>
                 </div>
               </div>
             ))}

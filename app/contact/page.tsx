@@ -1,23 +1,14 @@
-'use client';
+import React from 'react';
+import type { Metadata } from 'next';
+import { MapPin, Phone, Mail, Clock, ShieldCheck, ExternalLink, ArrowUpRight, Scale } from 'lucide-react';
 
-import React, { useState } from 'react';
-import { MapPin, Phone, Mail, Send, CheckCircle2, ShieldCheck, Clock, ExternalLink } from 'lucide-react';
+export const metadata: Metadata = {
+  title: 'Contact & Chambers Directory | Chamber.MU Advocates',
+  description:
+    'Contact information, office locations in New Delhi and Coimbatore, telephone lines, email desks, and consultation protocols for Chamber.MU Advocates.',
+};
 
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    area: 'Constitutional Law',
-    message: '',
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
-
   return (
     <div className="bg-[#FEF9F3]">
       {/* Header */}
@@ -25,254 +16,342 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <span className="text-xs uppercase tracking-[0.25em] text-[#94753D] font-semibold block mb-3">
-              Contact &amp; Inquiries
+              Chambers Directory
             </span>
             <h1 className="text-4xl sm:text-5xl font-light text-[#0B0B0C] tracking-tight font-serif mb-6 leading-tight">
               Connect with Chamber.MU
             </h1>
             <p className="text-base sm:text-lg font-light text-neutral-700 leading-relaxed">
-              For professional legal consultations, trial court or appellate litigation, alternate dispute resolution, or research inquiries, please reach out to our chambers in New Delhi or Coimbatore.
+              For professional legal consultations, trial court or appellate litigation, alternate dispute resolution, or research inquiries, please reach out to our primary chambers in New Delhi or Coimbatore.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Main Contact Grid */}
-      <section className="py-20">
+      {/* Direct Communication Channels */}
+      <section className="py-16 border-b border-[#E8E0D5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-            {/* Left: Chambers Info */}
-            <div className="lg:col-span-5 space-y-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Phone & WhatsApp Card */}
+            <div className="bg-white border border-[#E7DFD5] p-8 rounded-sm shadow-sm flex flex-col justify-between space-y-6">
               <div className="space-y-4">
-                <h2 className="text-2xl font-light font-serif text-[#0B0B0C]">
-                  Chambers Locations
-                </h2>
-                <p className="text-xs sm:text-sm font-light text-neutral-600 leading-relaxed">
-                  We welcome consultations by prior appointment at our primary offices.
+                <div className="p-3 bg-[#FBF5EC] rounded-md text-[#94753D] w-fit">
+                  <Phone className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[11px] font-mono uppercase tracking-widest text-neutral-500 block mb-1">
+                    Telephone &amp; WhatsApp
+                  </span>
+                  <h2 className="text-2xl font-light font-serif text-[#0B0B0C]">
+                    +91 88607 99513
+                  </h2>
+                </div>
+                <p className="text-xs font-light text-neutral-600 leading-relaxed">
+                  Direct chambers line for briefing inquiries, urgent mentions, bail listings, and consultation scheduling.
                 </p>
-              </div>
-
-              {/* Addresses */}
-              <div className="space-y-6">
-                <div className="p-6 bg-white border border-[#E7DFD5] rounded-sm space-y-2">
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
-                    <MapPin className="w-4 h-4 text-[#A88B58]" />
-                    <span>New Delhi Chambers</span>
-                  </div>
-                  <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
-                    20/3 Nizamuddin East Market, Nizamuddin East, New Delhi – 110013
-                  </p>
-                  <span className="inline-block text-[11px] text-neutral-500 font-mono">
-                    Jurisdiction: Supreme Court &amp; Delhi High Court
-                  </span>
-                </div>
-
-                <div className="p-6 bg-white border border-[#E7DFD5] rounded-sm space-y-2">
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
-                    <MapPin className="w-4 h-4 text-[#A88B58]" />
-                    <span>Coimbatore Chambers</span>
-                  </div>
-                  <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
-                    Door No. 24, ST-6 (Chitra Nagar), Narasimhanaickenpalayam, Coimbatore – 641017
-                  </p>
-                  <span className="inline-block text-[11px] text-neutral-500 font-mono">
-                    South India Operations
-                  </span>
-                </div>
-
-                <div className="p-6 bg-white border border-[#E7DFD5] rounded-sm space-y-2">
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
-                    <MapPin className="w-4 h-4 text-[#A88B58]" />
-                    <span>England Chapter</span>
-                  </div>
-                  <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
-                    International Human Rights Law Research &amp; Advisory Consultancies
-                  </p>
+                <div className="flex items-center gap-1.5 text-[11px] text-neutral-500">
+                  <Clock className="w-3.5 h-3.5 text-[#94753D]" />
+                  <span>Mon–Sat: 10:00 AM – 7:00 PM IST</span>
                 </div>
               </div>
 
-              {/* Direct Channels */}
-              <div className="p-6 bg-[#FBF5EC] border border-[#E7DFD5] rounded-sm space-y-4">
-                <h3 className="text-xs uppercase tracking-wider font-semibold text-neutral-900">
-                  Direct Inquiries &amp; Channels
-                </h3>
-                <div className="space-y-3 text-sm font-light text-neutral-800">
-                  <div className="flex items-center gap-3">
-                    <Phone className="w-4 h-4 text-[#A88B58]" />
-                    <a href="tel:+918860799513" className="hover:text-black hover:underline">
-                      +91 88607 99513
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Mail className="w-4 h-4 text-[#A88B58]" />
-                    <a href="mailto:thechamber.mu@gmail.com" className="hover:text-black hover:underline">
-                      thechamber.mu@gmail.com
-                    </a>
-                  </div>
-                </div>
-
-                <div className="pt-2 border-t border-[#E8E0D5] flex items-center gap-4 text-xs">
-                  <a
-                    href="https://www.instagram.com/thechamber.mu?igsi=MXd5djlwajhyMWk4bQ%3D%3D&utm_source=qr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[#94753D] hover:underline"
-                  >
-                    <span>Instagram</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                  <span className="text-neutral-400">•</span>
-                  <a
-                    href="https://x.com/thechambermu?s=11"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[#94753D] hover:underline"
-                  >
-                    <span>X / Twitter</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-
-                <div className="pt-2 text-[11px] text-neutral-500 flex items-center gap-1.5">
-                  <Clock className="w-3.5 h-3.5" />
-                  <span>Chambers Hours: Mon–Sat, 10:00 AM – 7:00 PM IST</span>
-                </div>
+              <div className="pt-4 border-t border-[#F2ECE3] flex items-center justify-between">
+                <a
+                  href="tel:+918860799513"
+                  className="text-xs uppercase tracking-wider font-medium text-neutral-900 hover:text-[#94753D] transition-colors"
+                >
+                  Call Chambers
+                </a>
+                <span className="text-neutral-300">•</span>
+                <a
+                  href="https://wa.me/918860799513"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-xs uppercase tracking-wider font-medium text-[#94753D] hover:underline"
+                >
+                  <span>WhatsApp</span>
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
               </div>
             </div>
 
-            {/* Right: Contact Form */}
-            <div className="lg:col-span-7">
-              <div className="bg-white border border-[#E7DFD5] p-8 sm:p-12 rounded-sm shadow-sm">
-                <div className="border-b border-[#F0E8DD] pb-6 mb-8">
-                  <h2 className="text-2xl font-light font-serif text-[#0B0B0C]">
-                    Submit an Inquiry
+            {/* Email Card */}
+            <div className="bg-white border border-[#E7DFD5] p-8 rounded-sm shadow-sm flex flex-col justify-between space-y-6">
+              <div className="space-y-4">
+                <div className="p-3 bg-[#FBF5EC] rounded-md text-[#94753D] w-fit">
+                  <Mail className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[11px] font-mono uppercase tracking-widest text-neutral-500 block mb-1">
+                    Chambers Registry
+                  </span>
+                  <h2 className="text-xl sm:text-2xl font-light font-serif text-[#0B0B0C] break-all">
+                    thechamber.mu@gmail.com
                   </h2>
-                  <p className="text-xs sm:text-sm font-light text-neutral-600 mt-1">
-                    Please provide an overview of your inquiry. All communications are maintained in accordance with advocate confidentiality standards.
-                  </p>
+                </div>
+                <p className="text-xs font-light text-neutral-600 leading-relaxed">
+                  Dedicated desk for case documents, appellate files, commercial arbitrations, academic collaborations, and internships.
+                </p>
+                <div className="flex items-center gap-1.5 text-[11px] text-neutral-500">
+                  <ShieldCheck className="w-3.5 h-3.5 text-[#94753D]" />
+                  <span>Confidential &amp; Secure Repository</span>
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-[#F2ECE3]">
+                <a
+                  href="mailto:thechamber.mu@gmail.com?subject=Legal%20Consultation%20Inquiry%20-%20Chamber.MU"
+                  className="inline-flex items-center gap-1 text-xs uppercase tracking-wider font-medium text-neutral-900 hover:text-[#94753D] transition-colors"
+                >
+                  <span>Draft Email Brief</span>
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#A88B58]" />
+                </a>
+              </div>
+            </div>
+
+            {/* Social & Digital Dispatches */}
+            <div className="bg-white border border-[#E7DFD5] p-8 rounded-sm shadow-sm flex flex-col justify-between space-y-6">
+              <div className="space-y-4">
+                <div className="p-3 bg-[#FBF5EC] rounded-md text-[#94753D] w-fit">
+                  <ExternalLink className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[11px] font-mono uppercase tracking-widest text-neutral-500 block mb-1">
+                    Public Dispatches &amp; Media
+                  </span>
+                  <h2 className="text-2xl font-light font-serif text-[#0B0B0C]">
+                    Digital Channels
+                  </h2>
+                </div>
+                <p className="text-xs font-light text-neutral-600 leading-relaxed">
+                  Follow official courtroom proceedings, public litigation alerts, publications, and grassroots legal reports.
+                </p>
+                <div className="space-y-2 pt-1 text-xs">
+                  <div className="flex items-center justify-between">
+                    <span className="text-neutral-500 font-light">Instagram:</span>
+                    <a
+                      href="https://www.instagram.com/thechamber.mu?igsi=MXd5djlwajhyMWk4bQ%3D%3D&utm_source=qr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#94753D] hover:underline font-medium"
+                    >
+                      @thechamber.mu
+                    </a>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-neutral-500 font-light">X / Twitter:</span>
+                    <a
+                      href="https://x.com/thechambermu?s=11"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#94753D] hover:underline font-medium"
+                    >
+                      @thechambermu
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-[#F2ECE3]">
+                <a
+                  href="/media"
+                  className="inline-flex items-center gap-1 text-xs uppercase tracking-wider font-medium text-neutral-900 hover:text-[#94753D] transition-colors"
+                >
+                  <span>View Media &amp; Press Archive</span>
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#A88B58]" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Chambers Locations Grid */}
+      <section className="py-20 border-b border-[#E8E0D5] bg-[#FBF5EC]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+          <div className="max-w-2xl">
+            <span className="text-xs font-mono text-[#94753D] tracking-widest block mb-1">
+              PHYSICAL SEATS
+            </span>
+            <h2 className="text-3xl font-light font-serif text-[#0B0B0C]">
+              Chambers Offices &amp; Jurisdictions
+            </h2>
+            <p className="text-xs sm:text-sm font-light text-neutral-600 mt-2">
+              Our advocates maintain active presence across national courts, regional benches, and international consultancies.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* New Delhi */}
+            <div className="bg-white border border-[#E7DFD5] p-8 rounded-sm shadow-sm flex flex-col justify-between space-y-6">
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-0.5 bg-[#0B0B0C] text-[#FEF9F3] text-[10px] uppercase tracking-widest font-medium rounded-sm">
+                    Primary Seat
+                  </span>
+                  <span className="text-xs text-neutral-400 font-mono">01</span>
                 </div>
 
-                {submitted ? (
-                  <div className="p-8 bg-[#FBF5EC] border border-[#E7DFD5] rounded-sm text-center space-y-4 animate-fade-in">
-                    <div className="w-12 h-12 mx-auto rounded-full bg-emerald-100 flex items-center justify-center text-emerald-800">
-                      <CheckCircle2 className="w-6 h-6" />
-                    </div>
-                    <h3 className="text-xl font-serif font-light text-[#0B0B0C]">
-                      Inquiry Received
-                    </h3>
-                    <p className="text-xs sm:text-sm font-light text-neutral-700 max-w-md mx-auto leading-relaxed">
-                      Thank you for contacting Chamber.MU. Our administrative desk will review your details and respond promptly.
-                    </p>
-                    <button
-                      onClick={() => {
-                        setSubmitted(false);
-                        setFormData({ name: '', email: '', phone: '', area: 'Constitutional Law', message: '' });
-                      }}
-                      className="mt-4 px-6 py-2.5 bg-[#0B0B0C] text-[#FEF9F3] text-xs uppercase tracking-widest font-medium rounded-sm"
-                    >
-                      Send Another Inquiry
-                    </button>
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
+                    <MapPin className="w-4 h-4 text-[#A88B58] shrink-0" />
+                    <span>New Delhi Chambers</span>
                   </div>
-                ) : (
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                      <div className="space-y-2">
-                        <label className="text-xs uppercase tracking-wider font-medium text-neutral-700">
-                          Full Name *
-                        </label>
-                        <input
-                          type="text"
-                          required
-                          value={formData.name}
-                          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                          placeholder="e.g. Adv. Rajesh Sharma"
-                          className="w-full px-4 py-3 bg-[#FEF9F3] border border-[#E2D9CC] rounded-sm text-sm focus:outline-none focus:border-neutral-900"
-                        />
-                      </div>
+                  <h3 className="text-xl font-light font-serif text-[#0B0B0C] pt-1">
+                    Nizamuddin East
+                  </h3>
+                </div>
 
-                      <div className="space-y-2">
-                        <label className="text-xs uppercase tracking-wider font-medium text-neutral-700">
-                          Email Address *
-                        </label>
-                        <input
-                          type="email"
-                          required
-                          value={formData.email}
-                          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                          placeholder="name@domain.com"
-                          className="w-full px-4 py-3 bg-[#FEF9F3] border border-[#E2D9CC] rounded-sm text-sm focus:outline-none focus:border-neutral-900"
-                        />
-                      </div>
-                    </div>
+                <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
+                  20/3 Nizamuddin East Market, Nizamuddin East, New Delhi – 110013
+                </p>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                      <div className="space-y-2">
-                        <label className="text-xs uppercase tracking-wider font-medium text-neutral-700">
-                          Phone Number *
-                        </label>
-                        <input
-                          type="tel"
-                          required
-                          value={formData.phone}
-                          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                          placeholder="+91 98765 43210"
-                          className="w-full px-4 py-3 bg-[#FEF9F3] border border-[#E2D9CC] rounded-sm text-sm focus:outline-none focus:border-neutral-900"
-                        />
-                      </div>
-
-                      <div className="space-y-2">
-                        <label className="text-xs uppercase tracking-wider font-medium text-neutral-700">
-                          Practice Area of Inquiry
-                        </label>
-                        <select
-                          value={formData.area}
-                          onChange={(e) => setFormData({ ...formData, area: e.target.value })}
-                          className="w-full px-4 py-3 bg-[#FEF9F3] border border-[#E2D9CC] rounded-sm text-sm focus:outline-none focus:border-neutral-900"
-                        >
-                          <option>Constitutional Law</option>
-                          <option>Immigration &amp; Citizenship Law</option>
-                          <option>Asylum &amp; Refugee Rights</option>
-                          <option>International Human Rights</option>
-                          <option>Criminal Defense &amp; Bail</option>
-                          <option>Civil &amp; Commercial Litigation</option>
-                          <option>Labour &amp; Employment</option>
-                          <option>Alternate Dispute Resolution (ADR)</option>
-                          <option>Internship / Research Opportunities</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div className="space-y-2">
-                      <label className="text-xs uppercase tracking-wider font-medium text-neutral-700">
-                        Summary of Matter / Message *
-                      </label>
-                      <textarea
-                        required
-                        rows={5}
-                        value={formData.message}
-                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        placeholder="Please describe the context, jurisdiction, or nature of assistance required..."
-                        className="w-full px-4 py-3 bg-[#FEF9F3] border border-[#E2D9CC] rounded-sm text-sm focus:outline-none focus:border-neutral-900"
-                      />
-                    </div>
-
-                    <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                      <span className="text-[11px] text-neutral-500 flex items-center gap-1.5">
-                        <ShieldCheck className="w-3.5 h-3.5 text-[#A88B58]" />
-                        <span>Confidential &amp; Subject to BCI Regulations</span>
-                      </span>
-
-                      <button
-                        type="submit"
-                        className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#0B0B0C] hover:bg-neutral-800 text-[#FEF9F3] text-xs uppercase tracking-[0.18em] font-medium rounded-sm transition-colors shadow-sm"
-                      >
-                        <Send className="w-3.5 h-3.5 text-[#A88B58]" />
-                        <span>Submit Inquiry</span>
-                      </button>
-                    </div>
-                  </form>
-                )}
+                <div className="pt-3 border-t border-[#F2ECE3] space-y-1.5">
+                  <span className="text-[10px] uppercase tracking-widest text-[#94753D] font-semibold block">
+                    Active Courts &amp; Benches
+                  </span>
+                  <p className="text-xs font-light text-neutral-600 leading-snug">
+                    Supreme Court of India, High Court of Delhi, Trial Courts, and Foreigners Tribunals.
+                  </p>
+                </div>
               </div>
+
+              <div className="pt-4 border-t border-[#F2ECE3]">
+                <a
+                  href="https://maps.google.com/?q=20/3+Nizamuddin+East+Market+New+Delhi+110013"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider font-medium text-neutral-900 hover:text-[#94753D] transition-colors"
+                >
+                  <span>Open Directions in Maps</span>
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#A88B58]" />
+                </a>
+              </div>
+            </div>
+
+            {/* Coimbatore */}
+            <div className="bg-white border border-[#E7DFD5] p-8 rounded-sm shadow-sm flex flex-col justify-between space-y-6">
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-0.5 bg-[#FBF5EC] text-[#94753D] text-[10px] uppercase tracking-widest font-medium rounded-sm border border-[#E7DFD5]">
+                    South India Operations
+                  </span>
+                  <span className="text-xs text-neutral-400 font-mono">02</span>
+                </div>
+
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
+                    <MapPin className="w-4 h-4 text-[#A88B58] shrink-0" />
+                    <span>Coimbatore Chambers</span>
+                  </div>
+                  <h3 className="text-xl font-light font-serif text-[#0B0B0C] pt-1">
+                    Narasimhanaickenpalayam
+                  </h3>
+                </div>
+
+                <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
+                  Door No. 24, ST-6 (Chitra Nagar), Narasimhanaickenpalayam, Coimbatore – 641017
+                </p>
+
+                <div className="pt-3 border-t border-[#F2ECE3] space-y-1.5">
+                  <span className="text-[10px] uppercase tracking-widest text-[#94753D] font-semibold block">
+                    Active Courts &amp; Benches
+                  </span>
+                  <p className="text-xs font-light text-neutral-600 leading-snug">
+                    Madras High Court, District Courts, Commercial Arbitration, and Regional Tribunals.
+                  </p>
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-[#F2ECE3]">
+                <a
+                  href="https://maps.google.com/?q=Narasimhanaickenpalayam+Coimbatore+641017"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider font-medium text-neutral-900 hover:text-[#94753D] transition-colors"
+                >
+                  <span>Open Directions in Maps</span>
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#A88B58]" />
+                </a>
+              </div>
+            </div>
+
+            {/* England Chapter */}
+            <div className="bg-white border border-[#E7DFD5] p-8 rounded-sm shadow-sm flex flex-col justify-between space-y-6">
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-0.5 bg-[#FBF5EC] text-neutral-700 text-[10px] uppercase tracking-widest font-medium rounded-sm border border-[#E7DFD5]">
+                    International Chapter
+                  </span>
+                  <span className="text-xs text-neutral-400 font-mono">03</span>
+                </div>
+
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
+                    <MapPin className="w-4 h-4 text-[#A88B58] shrink-0" />
+                    <span>England Chapter</span>
+                  </div>
+                  <h3 className="text-xl font-light font-serif text-[#0B0B0C] pt-1">
+                    United Kingdom
+                  </h3>
+                </div>
+
+                <p className="text-xs sm:text-sm font-light text-neutral-700 leading-relaxed">
+                  International Human Rights Law Research, Cross-Border Consultancies &amp; Comparative Jurisprudence
+                </p>
+
+                <div className="pt-3 border-t border-[#F2ECE3] space-y-1.5">
+                  <span className="text-[10px] uppercase tracking-widest text-[#94753D] font-semibold block">
+                    Advisory Focus
+                  </span>
+                  <p className="text-xs font-light text-neutral-600 leading-snug">
+                    Transnational human rights reporting, international asylum frameworks, and academic partnerships.
+                  </p>
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-[#F2ECE3]">
+                <a
+                  href="/team#england-chapter"
+                  className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider font-medium text-neutral-900 hover:text-[#94753D] transition-colors"
+                >
+                  <span>Meet England Researchers</span>
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#A88B58]" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Engagement Protocol & Compliance Guidance */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="p-8 sm:p-10 bg-white border border-[#E7DFD5] rounded-sm space-y-4">
+              <div className="flex items-center gap-2.5 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
+                <Clock className="w-4 h-4 text-[#A88B58]" />
+                <span>Consultation Scheduling &amp; Appointments</span>
+              </div>
+              <h3 className="text-xl font-light font-serif text-[#0B0B0C]">
+                Consultations by Prior Appointment
+              </h3>
+              <p className="text-xs sm:text-sm font-light text-neutral-600 leading-relaxed">
+                In strict adherence to courtroom hearing calendars and chamber schedules, in-person consultations at both New Delhi and Coimbatore are arranged by prior confirmed appointment. Secure video conference consultations are available for outstation, international, or detained individuals&apos; family members.
+              </p>
+            </div>
+
+            <div className="p-8 sm:p-10 bg-white border border-[#E7DFD5] rounded-sm space-y-4">
+              <div className="flex items-center gap-2.5 text-xs uppercase tracking-wider font-semibold text-[#0B0B0C]">
+                <ShieldCheck className="w-4 h-4 text-[#A88B58]" />
+                <span>Advocate-Client Privilege &amp; BCI Compliance</span>
+              </div>
+              <h3 className="text-xl font-light font-serif text-[#0B0B0C]">
+                Regulatory Declaration &amp; Confidentiality
+              </h3>
+              <p className="text-xs sm:text-sm font-light text-neutral-600 leading-relaxed">
+                All communications, records, and consultations are protected under advocate-client confidentiality and handled in compliance with the Bar Council of India rules. Chamber.MU does not advertise or solicit work; information is provided exclusively upon voluntary request.
+              </p>
             </div>
           </div>
         </div>

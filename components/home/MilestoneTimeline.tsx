@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { ExternalLink, Milestone, CheckCircle2 } from 'lucide-react';
+import { ExternalLink, ArrowRight } from 'lucide-react';
 
 export const MILESTONES = [
   {
@@ -43,16 +43,25 @@ export default function MilestoneTimeline() {
   return (
     <section className="py-20 lg:py-28 bg-[#FBF5EC] border-b border-[#E8E0D5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mb-16">
-          <span className="text-xs uppercase tracking-[0.25em] text-[#94753D] font-semibold block mb-3">
-            Track Record &amp; Impact
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-light text-[#0B0B0C] tracking-tight font-serif mb-4">
-            A Chronology of Landmark Litigation &amp; Precedents
-          </h2>
-          <p className="text-sm font-light text-neutral-600 leading-relaxed">
-            From grassroots human rights advocacy in trial courts to precedent-setting constitutional challenges before the Supreme Court of India.
-          </p>
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+          <div className="max-w-2xl">
+            <span className="text-xs uppercase tracking-[0.25em] text-[#94753D] font-semibold block mb-3">
+              Track Record &amp; Impact
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-light text-[#0B0B0C] tracking-tight font-serif mb-4">
+              A Chronology of Landmark Litigation &amp; Precedents
+            </h2>
+            <p className="text-sm font-light text-neutral-600 leading-relaxed">
+              From grassroots human rights defense in trial courts to precedent-setting constitutional challenges before the Supreme Court of India.
+            </p>
+          </div>
+          <Link
+            href="/media"
+            className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.16em] font-medium text-neutral-800 hover:text-black transition-colors"
+          >
+            <span>View Full Media &amp; Case Archive</span>
+            <ArrowRight className="w-4 h-4 text-[#A88B58]" />
+          </Link>
         </div>
 
         <div className="relative border-l border-[#DED3C4] ml-4 md:ml-6 space-y-12">

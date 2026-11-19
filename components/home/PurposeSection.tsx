@@ -34,19 +34,19 @@ export default function PurposeSection() {
           <div className="lg:col-span-7 space-y-8">
             <div className="p-8 bg-[#FEF9F3] border border-[#E7DFD5] rounded-lg space-y-4 shadow-sm">
               <h3 className="text-lg font-medium text-[#0B0B0C]">
-                Feminist Constitutionalism &amp; Social Justice
+                Feminist Constitutionalism
               </h3>
               <p className="text-sm font-light text-neutral-700 leading-relaxed">
-                We are a team of feminist lawyers with staunch faith in constitutionalism. Our practice strives to achieve social justice; therefore, we do not accept briefs that oppose equality and representation of any marginalised or disenfranchised community across the world.
+                Anchored in substantive equality, non-discrimination, and constitutional morality. We practice strategic lawyering that refuses briefs opposing the rights of marginalized communities, ensuring our advocacy advances social justice.
               </p>
             </div>
 
             <div className="p-8 bg-[#FEF9F3] border border-[#E7DFD5] rounded-lg space-y-4 shadow-sm">
               <h3 className="text-lg font-medium text-[#0B0B0C]">
-                Uncompromising Parity of Legal Representation
+                Parity of Legal Representation
               </h3>
               <p className="text-sm font-light text-neutral-700 leading-relaxed">
-                Our particular commitment is to provide our marginalised, disenfranchised, and displaced clients the exact same standard of rigorous, high-caliber legal representation that is afforded to affluent clients in corporate and commercial arenas.
+                Ensuring displaced, stateless, and disenfranchised clients receive the highest caliber of trial defense, appellate drafting, and judicial advocacy historically reserved for affluent commercial briefs.
               </p>
             </div>
           </div>
