@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "zip": "rm -f hostinger-nextjs-upload.zip && zip -r hostinger-nextjs-upload.zip . -x 'node_modules/*' -x '.git/*' -x '.next/*' -x 'out/*' -x 'hostinger-*.zip'"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
